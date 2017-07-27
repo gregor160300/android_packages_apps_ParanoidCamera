@@ -31,7 +31,7 @@ import android.widget.FrameLayout;
 import com.android.camera.ui.*;
 import com.android.camera.util.CameraUtil;
 
-import co.paranoidandroid.camera.R;
+import org.codeaurora.snapcam.R;
 
 public abstract class CameraUI implements
         PreviewGestures.SwipeListener,

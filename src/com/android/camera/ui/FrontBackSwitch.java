@@ -25,7 +25,7 @@ import android.widget.FrameLayout;
 
 import android.widget.ImageView;
 
-import co.paranoidandroid.camera.R;
+import org.codeaurora.snapcam.R;
 
 public class FrontBackSwitch extends FrameLayout implements Rotatable {
 
