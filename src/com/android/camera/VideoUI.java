@@ -62,7 +62,9 @@ import com.android.camera.ui.RotateTextToast;
 import com.android.camera.ui.ZoomRenderer;
 import com.android.camera.util.CameraUtil;
 
-public class VideoUI implements PieRenderer.PieListener,
+import co.paranoidandroid.camera.R;
+
+public class VideoUI extends CameraUI implements PieRenderer.PieListener,
         PreviewGestures.SingleTapListener,
         CameraRootView.MyDisplayListener,
         SurfaceHolder.Callback,

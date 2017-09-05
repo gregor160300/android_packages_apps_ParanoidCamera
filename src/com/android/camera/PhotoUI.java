@@ -83,7 +83,9 @@ import com.android.camera.ui.SelfieFlashView;
 import com.android.camera.ui.ZoomRenderer;
 import com.android.camera.util.CameraUtil;
 
-public class PhotoUI implements PieListener,
+import co.paranoidandroid.camera.R;
+
+public class PhotoUI extends CameraUI implements PieListener,
         PreviewGestures.SingleTapListener,
         FocusUI,
         SurfaceHolder.Callback,

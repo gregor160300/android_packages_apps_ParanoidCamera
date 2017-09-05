@@ -46,6 +46,7 @@ import com.android.camera.Storage;
 import com.android.camera.util.CameraUtil;
 import com.android.camera.TsMakeupManager;
 
+import co.paranoidandroid.camera.R;
 public class CameraControls extends RotatableLayout {
 
     private static final String TAG = "CAM_Controls";
