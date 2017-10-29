@@ -615,6 +615,8 @@ public class PhotoMenu extends MenuController
             popup1.setPreferenceEnabled(CameraSettings.KEY_WHITE_BALANCE, false);
             popup1.setPreferenceEnabled(CameraSettings.KEY_EXPOSURE, false);
             popup1.setPreferenceEnabled(CameraSettings.KEY_QC_CHROMA_FLASH, false);
+            popup1.setPreferenceEnabled(CameraSettings.KEY_ANTISHAKE, false);
+            popup1.setPreferenceEnabled(CameraSettings.KEY_ISO, false);
         }
         if ((autohdr != null) && autohdr.equals("enable")) {
             popup1.setPreferenceEnabled(CameraSettings.KEY_SCENE_MODE, false);
@@ -666,6 +668,8 @@ public class PhotoMenu extends MenuController
                 popup1.setPreferenceEnabled(CameraSettings.KEY_TOUCH_AF_AEC, false);
                 popup1.setPreferenceEnabled(CameraSettings.KEY_SCENE_MODE, false);
                 popup1.setPreferenceEnabled(CameraSettings.KEY_INSTANT_CAPTURE, false);
+                popup1.setPreferenceEnabled(CameraSettings.KEY_ANTISHAKE, false);
+                popup1.setPreferenceEnabled(CameraSettings.KEY_ISO, false);
                 setPreference(CameraSettings.KEY_CAMERA_HDR, mSettingOff);
             }
         }
